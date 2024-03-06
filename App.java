@@ -1,21 +1,31 @@
-package mystudent;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("\n Hello from class App \n\n");
+        // Creating  a student object
+        Student mystudent = new Student();
+        mystudent.firstName = "bo";
+        mystudent.lastName = "jackson";
+        mystudent.major = "music";
+        mystudent.gpa = "3.0";
+        mystudent.age = "25";
+        mystudent.onprobation = "false";
 
-        // Create a student object
-        Student myStudent = new Student();
 
-        // Fill the new myStudent object's data fields
-        myStudent.firstName = "Dennis";
-        myStudent.lastname = "Mohle";
-        myStudent.gpa = 3.4;
-        myStudent.major = "Computer Science";
-        myStudent.city = "Fresno";
+        Student mystudent2 = new Student();
+        mystudent2.firstName = "yao";
+        mystudent2.lastName = "ming";
+        mystudent2.major = "music";
+        mystudent2.gpa = "2.0";
+        mystudent2.age = "23";
+        mystudent2.onprobation = "true";
 
-        System.out.println("\n The first name of the student is: " + myStudent.firstName + "\n");
-        System.out.println("\n The last name of the student is: " + myStudent.lastname + "\n");
+       System.out.println(mystudent.gpa);
+        System.out.println(mystudent.firstName);
+        System.out.println(mystudent.lastName);
+        System.out.println(mystudent2.lastName);
+        System.out.println(mystudent2.firstName);
+        System.out.println(mystudent2.gpa);
+        System.out.println(mystudent2.onprobation);
 
     }
 }
