@@ -1,9 +1,8 @@
-package mystudent;
-
 public class Student {
     String firstName;
-    String lastname;
-    double gpa;
+    String lastName;
+    String gpa;
     String major;
-    String city;
+    String age;
+    String onprobation;
 }
